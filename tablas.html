@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Proyecto 1</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	
+	<!-- fuentes de google fonts: https://fonts.google.com/share?classification=Display -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<h1 id="titulo">Título de mi sitio web</h1>
+
+	<div id="navbar">
+		<span><a class="importante" href="./index.html">Inicio</a><span>
+		<span><a class="importante" href="./form.html">Ir a formulario</a><span>
+		<span><a class="importante" href="./ayuda.html">Ayuda</a><span>
+		<span><a class="importante" href="./tablas.html">Tablas</a><span>
+	</div>
+
+	<h1>Tablas</h1>
+	
+		<!-- Simple table -->
+	<table>
+	  <tr>
+		<td>John</td>
+		<td>Doe</td>
+	  </tr>
+	  <tr>
+		<td>Jane</td>
+		<td>Doe</td>
+	  </tr>
+	</table>
+
+	<!-- Simple table with header -->
+	<table>
+	  <tr>
+		<th>First name</th>
+		<th>Last name</th>
+	  </tr>
+	  <tr>
+		<td>John</td>
+		<td>Doe</td>
+	  </tr>
+	  <tr>
+		<td>Jane</td>
+		<td>Doe</td>
+	  </tr>
+	</table>
+
+	<!-- Table with thead, tfoot, and tbody -->
+	<table>
+	  <thead>
+		<tr>
+		  <th>Header content 1</th>
+		  <th>Header content 2</th>
+		</tr>
+	  </thead>
+	  <tfoot>
+		<tr>
+		  <td>Footer content 1</td>
+		  <td>Footer content 2</td>
+		</tr>
+	  </tfoot>
+	  <tbody>
+		<tr>
+		  <td>Body content 1</td>
+		  <td>Body content 2</td>
+		</tr>
+	  </tbody>
+	</table>
+
+	<!-- Table with colgroup -->
+	<table>
+	  <colgroup span="4" class="columns"></colgroup>
+	  <tr>
+		<th>Countries</th>
+		<th>Capitals</th>
+		<th>Population</th>
+		<th>Language</th>
+	  </tr>
+	  <tr>
+		<td>USA</td>
+		<td>Washington D.C.</td>
+		<td>309 million</td>
+		<td>English</td>
+	  </tr>
+	  <tr>
+		<td>Sweden</td>
+		<td>Stockholm</td>
+		<td>9 million</td>
+		<td>Swedish</td>
+	  </tr>
+	</table>
+
+	<!-- Table with colgroup and col -->
+	<table>
+	  <colgroup>
+		<col class="column1" />
+		<col class="columns2plus3" span="2" />
+	  </colgroup>
+	  <tr>
+		<th>Lime</th>
+		<th>Lemon</th>
+		<th>Orange</th>
+	  </tr>
+	  <tr>
+		<td>Green</td>
+		<td>Yellow</td>
+		<td>Orange</td>
+	  </tr>
+	</table>
+
+	<!-- Simple table with caption -->
+	<table>
+	  <caption>
+		Awesome caption
+	  </caption>
+	  <tr>
+		<td>Awesome data</td>
+	  </tr>
+	</table>
+	
+	<h1>Mi tabla</h1>
+	
+	<table>
+		<tr>
+			<th>Pais</th>
+			<th>Capital</th>
+			<th></th>
+		<tr>
+			<td class="dato-paises-cap">Peru</td>
+			<td class="dato-paises-cap">Lima</td>
+			<td class="emoji">🇵🇪</td></tr>
+		<tr>
+			<td class="dato-paises-cap">Bolivia</td>
+			<td class="dato-paises-cap">La Paz</td>
+			<td class="emoji">🇧🇴</td>
+		</tr>
+		<tr>
+			<td class="dato-paises-cap">Brasil</td>
+			<td class="dato-paises-cap">Brasilia</td>
+			<td class="emoji">emoji</td></tr>
+		<tr>
+			<td class="dato-paises-cap">Chile</td>
+			<td class="dato-paises-cap">Santiago</td>
+			<td class="emoji">emoji</td></tr>
+		<tr>
+			<td class="dato-paises-cap">Colombia</td>
+			<td class="dato-paises-cap">Bogota</td>
+			<td class="emoji">emoji</td></tr>
+		<tr>
+			<td class="dato-paises-cap">Ecuador</td>
+			<td class="dato-paises-cap">Quito</td>
+			<td class="emoji">emoji</td></tr>
+		<tr>
+			<td class="dato-paises-cap">Guyana</td>
+			<td class="dato-paises-cap">Georgetown</td>
+			<td class="emoji">emoji</td></tr>
+		<tr>
+			<td class="dato-paises-cap">Paraguay</td>
+			<td class="dato-paises-cap">Asuncion</td>
+			<td class="emoji">emoji</td></tr>
+		<tr>
+			<td class="dato-paises-cap">Argentina</td>
+			<td class="dato-paises-cap">Buenos Aires</td>
+			<td class="emoji">emoji</td></tr>
+		<tr>
+			<td class="dato-paises-cap">Surinam</td>
+			<td class="dato-paises-cap">Paramaribo</td>
+			<td class="emoji">emoji</td></tr>
+		<tr>
+			<td class="dato-paises-cap">Uruguay</td>
+			<td class="dato-paises-cap">Montevideo</td>
+			<td class="emoji">emoji</td></tr>
+		<tr>
+			<td class="dato-paises-cap">Venezuela</td>
+			<td class="dato-paises-cap">Caracas</td>
+			<td class="emoji">emoji</td>
+		</tr>
+	</table>
+		
+</body>
+</html>

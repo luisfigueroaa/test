@@ -1,0 +1,81 @@
+body {
+	font-family: sans-serif;
+	color: white;
+	background-color: black;
+	margin: 50px;
+}
+
+h1, h2 {
+	font-size: xx-large;
+	color: yellow;
+	font-family: monospace;
+}
+
+p {
+}
+
+span{
+}
+
+.importante {
+	background-color: lime;
+	color: black;
+	padding: 8px;
+	margin: 8px;
+	border-radius: 30px;
+	transition: 
+		color 2s, 
+		background-color 1s;
+	text-decoration: none;
+}
+
+.importante:hover {
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+
+a {
+	color: cyan;
+}
+
+#titulo {
+	font-family: "Honk", sans-serif;
+	color: cyan;
+	text-align: center;
+	font-size: xxx-large;
+}
+
+#navbar {
+	text-align: center;
+}
+
+/* Tablas */
+
+* {
+  border-collapse: collapse;
+}
+table {
+  width: 100%;
+  margin-top: 1rem;
+}
+td{
+  border: 1px solid white;
+}
+
+th {
+  border: 1px solid white;
+}
+
+thead {
+	background-color: blue;
+}
+
+.dato-paises-cap {
+	text-align: center;
+}
+
+.emoji {
+	font-family: "Noto Color Emoji";
+	text-align: center;
+}
